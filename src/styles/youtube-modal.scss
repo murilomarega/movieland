@@ -1,0 +1,25 @@
+.youtube-modal {
+  &__content {
+    width: 95vw;
+    aspect-ratio: 5 / 3;
+    .modal-content-container,
+    .modal-content-container > * {
+      width: 100% !important;
+      height: 100% !important;
+      background-color: #000;
+    }
+  }
+}
+
+.youtube-loading {
+  background: #000;
+}
+
+@media (min-width: 480px) {
+  .youtube-modal {
+    &__content {
+      max-width: 800px;
+      aspect-ratio: 3 / 2;
+    }
+  }
+}

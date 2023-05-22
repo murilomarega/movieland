@@ -1,0 +1,21 @@
+#root {
+  height: 100%;
+  background: linear-gradient(0deg, #1cb5e0 20%, #050b45 100%) no-repeat;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+:root,
+.App {
+  text-align: center;
+}
+
+.btn-remove {
+  width: auto;
+  padding: 0 20px;
+  font-size: 0.8rem;
+  background: red;
+  border: none;
+}
